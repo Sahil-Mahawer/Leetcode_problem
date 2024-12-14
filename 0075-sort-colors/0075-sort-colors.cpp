@@ -1,30 +1,26 @@
 class Solution {
 public:
     void sortColors(vector<int>& arr) {
-       int n = arr.size();
-       int count0=0, count1=0, count2=0;
+       int n= arr.size();
+       int high = n-1, mid = 0, low = 0;
 
-       for(int i=0;i<n;i++){
-        if(arr[i]==0)
-        count0++;
-       
-       else if(arr[i]==1)
-       count1++;
+       while(mid<=high){
+        if(arr[mid]==0){
+            swap(arr[mid], arr[low]);
+            low++;  // as low-1 should point to last 0 thats why low++
+            mid++; // mid always pont to unsorted array that why mid++
+        }
 
-       else
-       count2++;
-       }
+        else if(arr[mid]==1){
+            mid++; // now by doing this mid-1 points to last 1 and mid is pointing to unsorted elements
+        }
 
-    for(int i=0;i<count0;i++){
-        arr[i]=0;
-    }
+        else{ // arr[mid]==2
+        
+            swap(arr[mid], arr[high]);
+            high--; // by doing this high+1 will point to 2 (new element that is inserted by doing high++) and from range mid to high always point to unsorted element. 
+        }
+       } 
 
-     for(int i=count0;i<count1+count0;i++){
-        arr[i]=1;
-    }
-
-     for(int i=count0+count1;i<n;i++){
-        arr[i]=2;
-    }
     }
 };
