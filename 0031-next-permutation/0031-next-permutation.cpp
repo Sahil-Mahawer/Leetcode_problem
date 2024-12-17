@@ -17,7 +17,7 @@ public:
 
         // check if pivot exist or not .. if not exist return array in reverse order 
         if(pivot == -1){
-            reverse(arr.begin(), arr.end());
+            sort(arr.begin(), arr.end());
             return;
         }
 
