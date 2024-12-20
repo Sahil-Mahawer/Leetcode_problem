@@ -14,11 +14,11 @@ public:
             }
 
             else{
-                vector <int>& last_interval = merge.back();
+                // vector <int>& last_interval = merge.back();
 
-                if(intervals[i][0]<=last_interval[1]){      // comaparing end time of last interval with the start time of current interval, if start time of current interval is less than the end time of last inserted interval .. then they can overlap .. update the end time of previously inserted interval.
+                if(intervals[i][0]<=merge.back()[1]){      // comaparing end time of last interval with the start time of current interval, if start time of current interval is less than the end time of last inserted interval .. then they can overlap .. update the end time of previously inserted interval.
 
-                    last_interval[1] = max(last_interval[1], intervals[i][1]);  // here we have update the end time of previously inserted interval .. hence overlaping done 
+                    /*last_interval[1]*/  merge.back()[1] = max(/*last_interval[1]*/ merge.back()[1], intervals[i][1]);  // here we have update the end time of previously inserted interval .. hence overlaping done 
                 }
 
                 else{
