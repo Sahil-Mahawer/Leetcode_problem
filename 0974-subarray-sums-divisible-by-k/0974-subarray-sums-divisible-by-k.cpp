@@ -1,0 +1,53 @@
+class Solution {
+public:
+    int subarraysDivByK(vector<int>& arr, int k) {
+    //  ------>>>> Brute Force Approach ----->>>
+
+        // int n = arr.size();
+        // int count=0;
+
+        // for(int i=0;i<n;i++){
+        //     int prefixSum = 0; 
+
+        //     for(int j=i;j<n;j++){
+        //         prefixSum+=arr[j];
+
+        //         if(prefixSum % k == 0){
+        //             count++;
+        //         }
+        //     }
+        // }
+        // return count;
+
+        //----->>>> Optimal Approach ------->>>>>
+
+        int prefixSum=0;
+        int remainder, n=arr.size();
+
+        int count=0;
+
+        unordered_map<int,int> mpp; // store the remainder and its frequency
+        mpp[0]=1;
+
+        for(int i=0;i<n;i++){
+
+            prefixSum+=arr[i];
+            remainder = prefixSum%k;
+
+            if(remainder<0){ // if remainder is negative then make it positive 
+                remainder = remainder+k; 
+            }
+
+            // similar logic as applied in "Subarray sum equals to K" .. if before see the reaminder then increase the count 
+
+            if(mpp.find(remainder)!=mpp.end()){
+                count = count+mpp[remainder];
+            }
+
+            mpp[remainder]++;
+        }
+
+        return count;
+
+    }
+};
