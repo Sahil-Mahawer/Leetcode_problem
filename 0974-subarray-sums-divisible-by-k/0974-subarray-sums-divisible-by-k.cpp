@@ -40,11 +40,11 @@ public:
 
             // similar logic as applied in "Subarray sum equals to K" .. if before see the reaminder then increase the count 
 
-            if(mpp.find(remainder)!=mpp.end()){
+            if(mpp.find(remainder)!=mpp.end()){ // checking remainder isse pehle aaya hai kya !! agr aaya hai toh jitni bhi baar aaya h utna count mai add krdo 
                 count = count+mpp[remainder];
             }
 
-            mpp[remainder]++;
+            mpp[remainder]++;  // and then increase the frequency of remainder.. 
         }
 
         return count;
