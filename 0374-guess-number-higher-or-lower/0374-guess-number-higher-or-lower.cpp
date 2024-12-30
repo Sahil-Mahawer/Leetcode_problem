@@ -17,14 +17,14 @@ public:
         while(start<=end){
             int mid = start+(end-start)/2;
 
-            int value = guess(mid);
+            
 
-            if(value==0){
+            if(guess(mid)==0){
                 ans =  mid;
                 break;
             }
 
-            else if(value==-1){
+            else if(guess(mid)==-1){
                     end = mid-1;
             }
             else{
