@@ -18,6 +18,10 @@ public:
 
             freq[nums[start]]--;
 
+            if(freq[nums[start]]==0){
+                freq.erase(nums[start]);
+            }
+
             start++;
 
             count--;
@@ -30,6 +34,10 @@ public:
             sum = sum-nums[start];
 
             freq[nums[start]]--;
+
+             if(freq[nums[start]]==0){
+                freq.erase(nums[start]);
+            }
 
             count--;
 
