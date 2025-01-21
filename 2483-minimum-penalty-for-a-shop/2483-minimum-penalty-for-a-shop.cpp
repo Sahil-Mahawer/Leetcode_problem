@@ -1,36 +1,72 @@
 class Solution {
 public:
     int bestClosingTime(string customers) {
-        int n = customers.size();
+        
+        int countN=0, countY=0;
+        int n = customers.size(); 
 
-        int totalY = 0; // Total count of 'Y' in the string
-        for (char c : customers) {
-            if (c == 'Y') totalY++;
-        }
+        for(int i=0;i<customers.size();i++){
 
-        int before_penalty = 0;    // Penalty for 'N' before the current index
-        int after_penalty = totalY; // Penalty for 'Y' after the current index
-
-        int total_penalty = INT_MAX; // Minimum penalty found so far
-        int index = -1;             // Best closing time index
-
-        for (int j = 0; j <= n; j++) {
-            // Update total penalty for the current index
-            int current_penalty = before_penalty + after_penalty;
-
-            // Update minimum penalty and best index if a better one is found
-            if (current_penalty < total_penalty) {
-                total_penalty = current_penalty;
-                index = j;
+            if(customers[i]=='Y'){
+                countY++;
             }
-
-            // Update penalties for the next index
-            if (j < n) {
-                if (customers[j] == 'N') before_penalty++; // Increment for 'N'
-                if (customers[j] == 'Y') after_penalty--;  // Decrement for 'Y'
+            else
+            {
+                countN++;
             }
         }
 
-        return index; // Return the best closing time
+        if(countY==customers.size()){
+            return customers.size();
+        }
+
+        if(countN==customers.size()){
+            return 0;
+        }
+
+       
+       int result = INT_MAX;
+       int index = -1;
+
+       vector<int> prefixN(n+1,0);
+       prefixN[0] = 0;
+
+       vector<int> suffixY(n+1,0);
+       suffixY[n]=0;
+
+       for(int i=1;i<=n;i++){
+
+        if(customers[i-1]=='N'){
+            prefixN[i] = prefixN[i-1]+1;
+        }
+        else{
+            prefixN[i] = prefixN[i-1];
+        }
+
+       }
+
+       for(int i=n-1;i>=0;i--){
+
+        if(customers[i]=='Y'){
+            suffixY[i] = suffixY[i+1]+1;
+        }
+        else{
+            suffixY[i] = suffixY[i+1];
+        }
+
+       }
+
+       for(int i=0;i<=n;i++){
+
+        int total_penalty = prefixN[i] + suffixY[i];
+
+        if( total_penalty < result){
+             result = total_penalty ;
+            index = i;
+        }
+       }
+
+       return index;
+       
     }
 };
