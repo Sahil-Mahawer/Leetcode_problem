@@ -36,7 +36,7 @@ public:
                 windowMap[pre]--;
 
                 // If the character no longer satisfies the frequency, decrement current
-                if (freqMap.find(pre) != freqMap.end() && windowMap[pre] < freqMap[pre]) {
+                if (freqMap.find(pre) != freqMap.end() ) {
                     current--;
                 }
 
