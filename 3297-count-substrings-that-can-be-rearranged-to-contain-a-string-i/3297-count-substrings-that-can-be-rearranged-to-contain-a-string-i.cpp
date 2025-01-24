@@ -18,12 +18,13 @@ public:
 
             // If the character is present in word2, update the windowMap
             if (freqMap.find(curr) != freqMap.end()) {
+                windowMap[curr]++;
+                
+                // Check if the frequency matches
                 if (windowMap[curr] == freqMap[curr]) {
-                    current++;  // If the character count is less than required, increment current
+                    current++;  // If the character count is exactly required, increment current
                 }
             }
-
-            windowMap[curr]++;
 
             // When the window is valid, count all valid substrings
             while (current == required) {
@@ -34,7 +35,7 @@ public:
                 windowMap[pre]--;
 
                 // If the character no longer satisfies the frequency, decrement current
-                if (freqMap.find(pre) != freqMap.end()) {
+                if (freqMap.find(pre) != freqMap.end() && windowMap[pre] < freqMap[pre]) {
                     current--;
                 }
 
