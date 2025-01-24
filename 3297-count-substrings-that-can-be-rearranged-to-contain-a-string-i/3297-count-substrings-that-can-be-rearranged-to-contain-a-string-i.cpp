@@ -4,7 +4,8 @@ public:
         unordered_map<char, int> freqMap, windowMap;
         
         // Count frequencies of characters in word2
-        for (char ch : word2) {
+        for (int i = 0; i < word2.length(); i++) {
+            char ch = word2[i];
             freqMap[ch]++;
         }
 
