@@ -11,7 +11,7 @@ public:
 
         int start = 0, required = freqMap.size(), current = 0;
         long long count = 0;
-        int k = word2.length();
+        
 
         // Sliding window approach
         for (int end = 0; end < word1.length(); end++) {
