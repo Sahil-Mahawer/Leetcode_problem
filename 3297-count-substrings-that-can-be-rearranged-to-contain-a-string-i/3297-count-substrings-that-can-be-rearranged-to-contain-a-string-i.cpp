@@ -33,13 +33,16 @@ public:
 
                 // Shrink the window from the left
                 char pre = word1[start];
-                windowMap[pre]--;
+               
 
                 // If the character no longer satisfies the frequency, decrement current
-                if (freqMap.find(pre) != freqMap.end() ) {
-                    current--;
+                if (freqMap.find(pre) != freqMap.end()) {
+                     if (windowMap[word1[i]] == freqMap[word1[i]]) {
+                        current--;
+                    }
+                      windowMap[pre]--;
                 }
-
+            
                 start++;
             }
         }
