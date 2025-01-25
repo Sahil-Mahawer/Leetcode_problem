@@ -1,10 +1,3 @@
-#include <vector>
-#include <unordered_map>
-#include <list>
-#include <algorithm>
-#include <cmath>
-
-using namespace std;
 
 class Solution {
 public:
