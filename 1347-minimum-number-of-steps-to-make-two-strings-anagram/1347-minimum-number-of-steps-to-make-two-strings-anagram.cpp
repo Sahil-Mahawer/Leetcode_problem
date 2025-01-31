@@ -1,16 +1,28 @@
 class Solution {
 public:
     int minSteps(string s, string t) {
-        
-        sort(s.begin(), s.end());
-        sort(t.begin(), t.end());
-        int count = 0;
+        unordered_map<char,int> mpp;
+        int count=0;
 
-        for(int i=0;i<s.size();i++){
-            if(s[i]!=t[i]){
+        for(int i=0;i<t.size();i++){
+            mpp[s[i]]++;
+        }
+
+        for(int i=0;i<t.size();i++){
+
+            char ch = t[i];
+
+            if(mpp.find(ch)==mpp.end()){
                 count++;
             }
+            else{
+                mpp[ch]--;
+                if(mpp[ch]==0){
+                    mpp.erase(ch);
+                }
+            }
         }
+
         return count;
     }
 };
