@@ -24,7 +24,7 @@ public:
 
         // Now check all indices from k to n-k-1
         for (int i = k; i < n - k; i++) {
-            if (left_inc[i - 1] >= k && right_inc[i + 1] >= k) {
+            if (left_inc[i-1] >= k && right_inc[i+1] >= k) {
                 result.push_back(i);  // Add index to result if it satisfies the conditions
             }
         }
