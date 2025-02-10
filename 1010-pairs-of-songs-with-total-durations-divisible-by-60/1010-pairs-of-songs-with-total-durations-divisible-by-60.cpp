@@ -9,14 +9,12 @@ public:
         for(int i=0;i<n;i++){
 
             time[i] = time[i]%60;
-        }
-
-        for(int i=0;i<n;i++){
-
             int remaining = (60-time[i])%60;
             count = count+ freq[remaining];
             freq[time[i]]++;
         }
+
+       
         return count;
     }
 };
