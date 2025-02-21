@@ -13,18 +13,23 @@ void solve(string &current , int idx){
        return;
     }
 
-    current.push_back('0');
+    current.push_back('0');   // do
     if(result == ""){
-        solve(current,idx+1);
+        solve(current,idx+1);  // explore
     }
-    current.pop_back();
+    current.pop_back();   // undo
 
-    current.push_back('1');
+
+    current.push_back('1'); // do
     if(result == ""){
-        solve(current,idx+1);
+        solve(current,idx+1); // explore
     }
-    current.pop_back();
+    current.pop_back();   // undo
+
 }
+
+
+
     string findDifferentBinaryString(vector<string>& nums) {
         
          n = nums.size();
