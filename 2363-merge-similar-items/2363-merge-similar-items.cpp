@@ -2,8 +2,7 @@ class Solution {
 public:
     vector<vector<int>> mergeSimilarItems(vector<vector<int>>& items1, vector<vector<int>>& items2) {
         
-      sort(begin(items1), end(items1));
-      sort(begin(items2), end(items2));
+     
 
       int n = items1.size();
       int m = items2.size();
