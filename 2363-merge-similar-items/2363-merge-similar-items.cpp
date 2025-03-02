@@ -15,11 +15,11 @@ public:
       while(i<n && j<m)
       {
 
-        if(items1[i][0] < items2[i][0]){
+        if(items1[i][0] < items2[j][0]){
             result.push_back(items1[i]);
             i++;
         }
-        else if(items2[j][0] < items1[j][0]){
+        else if(items2[j][0] < items1[i][0]){
             result.push_back(items2[j]);
             j++;
         }
