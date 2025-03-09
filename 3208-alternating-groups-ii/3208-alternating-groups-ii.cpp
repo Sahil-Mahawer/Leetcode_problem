@@ -17,7 +17,7 @@ public:
             if(extended[j] == extended[j-1]){
                 i=j;
                 j++;
-                continue;
+                // continue;
             }
 
             if(j-i+1 == k){
