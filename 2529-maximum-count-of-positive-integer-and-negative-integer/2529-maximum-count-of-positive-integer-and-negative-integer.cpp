@@ -16,8 +16,8 @@ public:
             }
         }
 
-        ans = max(count_pos, count_neg);
+        // ans = max(count_pos, count_neg);
 
-        return ans;
+        return max(count_pos, count_neg);
     }
 };
