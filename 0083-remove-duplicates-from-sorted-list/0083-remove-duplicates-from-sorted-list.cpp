@@ -20,17 +20,18 @@ public:
         // Rewrite values in the linked list
         curr = head;
         int index = 0;
-
+        ListNode*prev = NULL;
         while (index < ans.size()) {
             curr->val = ans[index];
             index++;
-            if (index < ans.size()) {
+            prev = curr;
+           
                 curr = curr->next;
-            }
+        
         }
 
         // Ensure the last valid node correctly points to NULL
-        curr->next = NULL;  
+        prev->next = NULL;
 
         return head;
     }
