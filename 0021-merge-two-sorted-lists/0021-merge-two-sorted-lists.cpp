@@ -58,6 +58,6 @@ public:
         }
 
         return newHead;
-        return store;
+        
     }
 };
