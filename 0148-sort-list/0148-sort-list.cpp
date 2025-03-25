@@ -36,13 +36,13 @@ ListNode* merge_List(ListNode* list1, ListNode* list2){
             tail->next = list1;
             list1 = list1->next;
             tail = tail->next;
-            // tail->next = NULL;
+            tail->next = NULL;
         }
         else{
             tail->next = list2;
             list2 = list2->next;
             tail = tail->next;
-            // tail->next = NULL;
+            tail->next = NULL;
         }
     }
 
