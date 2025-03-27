@@ -11,26 +11,29 @@
 class Solution {
 public:
 
-ListNode* reverse(ListNode*curr, ListNode* prev){
+// ListNode* reverse(ListNode*curr, ListNode* prev){
 
-    ListNode* next = NULL;
+//     ListNode* next = NULL;
 
-    while(curr){
-        next = curr->next;
-        curr->next = prev;
-        prev = curr;
-        curr = next;
-    }
+//     while(curr){
+//         next = curr->next;
+//         curr->next = prev;
+//         prev = curr;
+//         curr = next;
+//     }
 
-    return prev;
+//     return prev;
 
-}
+// }
 
 
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         
-        ListNode* curr1 = reverse(l1, NULL);
-        ListNode* curr2 = reverse(l2, NULL);
+        // ListNode* curr1 = reverse(l1, NULL);
+        // ListNode* curr2 = reverse(l2, NULL);
+
+         ListNode* curr1 = l1;
+         ListNode* curr2 = l2;
 
         ListNode *head = new ListNode(0);
         ListNode *tail = head;
@@ -70,7 +73,7 @@ ListNode* reverse(ListNode*curr, ListNode* prev){
             carry = carry/10;
         }
 
-       head = reverse(head->next, NULL);
+        head = head->next;
 
         return head;
 
