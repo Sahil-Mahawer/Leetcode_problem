@@ -27,6 +27,8 @@ public:
 // }
 
     Node* copyRandomList(Node* head) {
+
+         if (!head) return nullptr;
         
         // Node *headcopy = new Node(0);
         // Node *tailcopy = headcopy;
