@@ -18,7 +18,7 @@ public:
             minHeap.push({nums[j],j});
 
             while(maxHeap.top().first - minHeap.top().first > limit){
-                 i = min(maxHeap.top().second, minHeap.top().second)+1;
+                 i = i+1;
 
                  while(maxHeap.top().second < i){
                     maxHeap.pop();
