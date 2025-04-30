@@ -23,6 +23,7 @@ int height(TreeNode * root, bool &valid)
 
         if(abs(left - right) > 1){
             valid = 0;
+            return 0;
         }
 
         return 1+max(left, right);
