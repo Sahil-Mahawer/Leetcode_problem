@@ -14,16 +14,47 @@ public:
 vector<int> ans;
     vector<int> inorderTraversal(TreeNode* root) {
         
-        if(root == NULL){
-            return ans;
+        // if(root == NULL){
+        //     return ans;
+        // }
+
+        // // left - Node - Right
+        // inorderTraversal(root->left);
+
+        // ans.push_back(root->val);
+
+        // inorderTraversal(root->right);
+
+        // return ans;
+
+        while(root!=NULL){
+
+            if(root->left == NULL){
+                ans.push_back(root->val);
+                root = root->right;
+            }
+
+            else{
+
+                TreeNode *curr = root->left;
+
+                while(curr->right != NULL && curr->right != root){
+                    curr = curr->right;
+                }
+
+                if(curr->right == NULL){ // link doesnot exist
+                        curr->right = root;
+                        root = root->left;
+                }
+                else{
+
+                    curr->right = NULL;
+                    ans.push_back(root->val);
+                    root = root->right;
+                }
+            }
+
         }
-
-        // left - Node - Right
-        inorderTraversal(root->left);
-
-        ans.push_back(root->val);
-
-        inorderTraversal(root->right);
 
         return ans;
     }
