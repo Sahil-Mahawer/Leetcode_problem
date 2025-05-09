@@ -14,15 +14,44 @@ public:
 vector<int> ans;
     vector<int> preorderTraversal(TreeNode* root) {
         
-        if(root ==  NULL){
-            return ans;
+        // if(root ==  NULL){
+        //     return ans;
+        // }
+        // // Node - Left - Right
+        // ans.push_back(root->val);
+
+        // preorderTraversal(root->left);
+
+        // preorderTraversal(root->right);
+
+        // return ans;
+
+        while(root!=NULL){
+
+            if(root->left==NULL){
+                ans.push_back(root->val);
+                root = root->right; 
+            }
+
+            else{
+
+                TreeNode * curr = root->left;
+
+                while(curr->right!=NULL && curr->right!=root){
+                    curr = curr->right;
+                }
+
+                if(curr->right == NULL){ // not traversed , we are coming first time 
+                    ans.push_back(root->val);
+                    curr->right = root;
+                    root = root->left;
+                }
+                else{  // already traversed
+                    curr->right = NULL;
+                    root = root->right;
+                }
+            }
         }
-        // Node - Left - Right
-        ans.push_back(root->val);
-
-        preorderTraversal(root->left);
-
-        preorderTraversal(root->right);
 
         return ans;
 
