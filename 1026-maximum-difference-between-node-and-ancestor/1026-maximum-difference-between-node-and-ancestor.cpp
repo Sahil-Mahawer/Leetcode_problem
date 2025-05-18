@@ -11,39 +11,57 @@
  */
 class Solution {
 public:
-int maxDiff;
+// int maxDiff;
 
-// ik node prr fix rehke use left and right child se uss node ka max difference calculate krta hai 
-void findMax(TreeNode* root, TreeNode* child){
+// // ik node prr fix rehke use left and right child se uss node ka max difference calculate krta hai 
+// void findMax(TreeNode* root, TreeNode* child){
 
-    if(root == NULL || child == NULL)
-    return;
+//     if(root == NULL || child == NULL)
+//     return;
 
-    maxDiff = max(maxDiff, abs(root->val - child->val));
+//     maxDiff = max(maxDiff, abs(root->val - child->val));
 
-    findMax(root, child->left);
-    findMax(root, child->right);
+//     findMax(root, child->left);
+//     findMax(root, child->right);
 
-}
+// }
 
-void solve(TreeNode* root){
+// void solve(TreeNode* root){
 
-    if(root == NULL)
-    return;
+//     if(root == NULL)
+//     return;
 
-    findMax(root, root->left);
-    findMax(root, root->right);
+//     findMax(root, root->left);
+//     findMax(root, root->right);
 
-    solve(root->left);
-    solve(root->right);
+//     solve(root->left);
+//     solve(root->right);
 
+// }
+
+int findMax(TreeNode* root, int minV, int maxV){
+
+    if(root == NULL){
+        return abs(minV-maxV);
+    }
+
+    minV = min(minV, root->val);
+    maxV  = max(maxV, root->val);
+    
+    int left = findMax(root->left, minV, maxV);
+    int right = findMax(root->right, minV, maxV);
+
+    return max(left, right);
 }
     int maxAncestorDiff(TreeNode* root) {
         
-        maxDiff = -1;
+        // maxDiff = -1;
 
-        solve(root);
+        // solve(root);
 
-        return maxDiff;
+        // return maxDiff;
+
+
+       return  findMax(root, root->val, root->val); // root, minimumValue, maximumValue
     }
 };
