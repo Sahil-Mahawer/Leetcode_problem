@@ -11,33 +11,62 @@
  */
 class Solution {
 public:
-vector<int> ans;
+// vector<int> ans;
 
-void inorder(TreeNode* root){
+// void inorder(TreeNode* root){
 
-    if(root == NULL){
-        return;
+//     if(root == NULL){
+//         return;
+//     }
+
+//     inorder(root->left);
+
+//     ans.push_back(root->val);
+
+//     inorder(root->right);
+
+// }
+
+
+bool BST(TreeNode* root, long long &prev){
+
+    if(root == NULL)
+    return true;
+
+    bool left = BST(root->left, prev);
+    if(left == false){
+        return false;
     }
 
-    inorder(root->left);
+    // checking for current node 
+    if(root->val <= prev){
+        return false;
+    }
 
-    ans.push_back(root->val);
+    prev = root->val;
 
-    inorder(root->right);
-
+    return BST(root->right, prev);
 }
+
+
     bool isValidBST(TreeNode* root) {
         
-        inorder(root);
+        // inorder(root);
 
-        for(int i=1;i<ans.size(); i++){
+        // for(int i=1;i<ans.size(); i++){
 
-            if(ans[i] <= ans[i-1]){
-                return false;
-            }
-        }
+        //     if(ans[i] <= ans[i-1]){
+        //         return false;
+        //     }
+        // }
 
-        return true;
+        // return true;
+
+
+
+        long long prev = LLONG_MIN;
+
+        return  BST(root, prev);
 
     }
 };
