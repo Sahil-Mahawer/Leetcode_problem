@@ -89,6 +89,7 @@ public:
         while (!pq.empty()) {
 
             temp = pq.top();
+            pq.pop();
             tail->next = temp;
             tail = tail->next;
 
