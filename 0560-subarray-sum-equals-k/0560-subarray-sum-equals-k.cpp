@@ -16,22 +16,31 @@ public:
         // }
         // return count;
 
-         int count=0;
-    int prefixSum=0;
+        // ---->>> optimal ------>>>>>
 
-    map<int,int> mpp;
+        int total=0;
 
-    mpp[0]=1;
+        int prefix_sum = 0;
 
-    for(int i=0;i<arr.size();i++){
-        prefixSum+=arr[i];
+        unordered_map<int,int> mp;
 
-        int rem = prefixSum-k;
+        mp[0] = 1;
 
-        count+=mpp[rem];
-        mpp[prefixSum]+=1;
-    }
+        for(int i=0; i<arr.size(); i++){
 
-    return count;
+         prefix_sum += arr[i];
+
+         int rem = prefix_sum - k;
+
+         if(mp.find(rem) != mp.end()){
+
+            total += mp[rem];
+         }
+
+         mp[prefix_sum]++;
+
+        }
+
+        return total;
     }
 };
