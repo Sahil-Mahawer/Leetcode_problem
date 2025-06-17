@@ -63,7 +63,6 @@ public:
             end++;
         }
 
-        return s.substr(start_index, mini_length);
-
+        return mini_length == INT_MAX ? "" : s.substr(start_index, mini_length);
     }
 };
