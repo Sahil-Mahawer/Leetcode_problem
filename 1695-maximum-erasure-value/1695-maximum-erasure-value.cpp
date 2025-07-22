@@ -6,7 +6,7 @@ public:
         int n = nums.size();
         unordered_set<int> unique;
 
-        int start = 0, end =0;
+        int start = 0, end =0, maxsum = INT_MIN;
 
         while(end<n){
 
@@ -17,8 +17,9 @@ public:
             }
             unique.insert(nums[end]);
             sum +=nums[end];
+            maxsum = max(maxsum,sum); 
             end++; 
         }
-        return sum;
+        return maxsum;
     }
 };
