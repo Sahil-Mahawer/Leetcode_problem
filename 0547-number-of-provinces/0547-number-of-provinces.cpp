@@ -8,9 +8,11 @@ void dfs(vector<vector<int>> &adj, vector<bool> &visited, int v){
 
     for(int i=0; i<adj[v].size(); i++){
 
-        if(visited[i] == false){
+        int neighbour = adj[v][i]; 
 
-            dfs(adj, visited, i);
+        if(visited[neighbour] == false){
+
+            dfs(adj, visited, neighbour);
         }
     } 
 }
@@ -19,9 +21,9 @@ void dfs(vector<vector<int>> &adj, vector<bool> &visited, int v){
 
         vector<bool> visited(n, false);
 
-        vector<vector<int>> adj;
+        vector<vector<int>> adj(n);
 
-        for(int i=01; i<n; i++){
+        for(int i=0; i<n; i++){
 
             for(int j=0; j<n;j++){
 
