@@ -19,7 +19,7 @@ public:
 
                 result.pop_back();
 
-                int LCM = prev / GCD * curr;
+                int LCM = prev* curr / GCD;
 
                 num = LCM;
             }
