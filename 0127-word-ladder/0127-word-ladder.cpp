@@ -1,46 +1,46 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        
-        unordered_set<string> word_set(wordList.begin(), wordList.end());
 
-        queue<pair<string,int>> que;  // {words,steps)
+        unordered_set<string> wordSet(wordList.begin(), wordList.end());
+        if (wordSet.find(endWord) == wordSet.end()) return 0;
 
-        que.push({beginWord,1}); 
+        queue<pair<string,int>> que; // {currentWord, steps}
+        que.push({beginWord, 1});
 
-        word_set.erase(beginWord); // and now start ereasing the words from set which you are getting because there is no point of getting back to that word 
+        unordered_set<string> visited;
+        visited.insert(beginWord);
 
-        while(!que.empty()){
+        while (!que.empty()) {
 
-            string word = que.front().first;
-            int steps = que.front().second;
+           string word = que.front().first;
 
-            for(int i=0; i<word.size(); i++){
+           int steps = que.front().second;
 
+           que.pop();
+
+            // Try changing each letter
+            for (int i = 0; i < word.size(); i++) {
                 string temp = word;
 
-                for(char ch = 'a'; ch<='z'; ch++){
+                for (char c = 'a'; c <= 'z'; c++) {
+                    temp[i] = c;
 
-                    temp[i] = ch;
-
-                    if(temp == endWord){
-
-                        return steps+1;
-
+                    if (temp == endWord) {
+                        return steps + 1;
                     }
 
-                    if(word_set.find(temp) != word_set.end()){
-
-                        que.push({temp, steps+1});
-
-                        word_set.erase(temp);
+                    if (wordSet.count(temp) && !visited.count(temp)) {
+                        que.push({temp, steps + 1});
+                        visited.insert(temp);
                     }
                 }
             }
         }
 
-
-        return 0;
-
+        return 0; // No transformation possible
     }
 };
