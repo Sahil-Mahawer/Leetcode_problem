@@ -11,54 +11,36 @@
  */
 class Solution {
 public:
-// In = refers to inorder
 
-// This functions find the position of root in inorder 
-int find(vector<int> inorder, int target, int In_start, int In_end)  
-{
+TreeNode* solve(vector<int>& preorder, vector<int>& inorder, int start, int end, int &idx){
 
-    for(int i=In_start;i<=In_end;i++)
-    {
+    if(start > end){
+        return NULL;
+    }
 
-        if(inorder[i] == target){
-            return i;
+    int rootval = preorder[idx];
+    int i = start;
+
+    for(; i<=end; i++){
+        if(inorder[i] == rootval){
+            break;
         }
     }
 
-    return -1;
+    idx++;
+
+    TreeNode * root = new TreeNode(rootval);
+    root->left  = solve(preorder, inorder, start, i-1, idx);
+    root->right = solve(preorder, inorder, i+1, end, idx);
+
+    return root; 
 }
-
-// In = refers to inorder
-
-TreeNode* tree(vector<int> &preorder, vector<int> &inorder, int In_start, int In_end,  int index )
-{
-            if(In_start > In_end)
-            return NULL;
-
-            TreeNode *root = new TreeNode(preorder[index]);   // first node in preoder will always be a root node
-
-            int pos  = find(inorder, preorder[index], In_start, In_end); // find positon of root in inorder
-
-            // left part of root node
-            root->left = tree(preorder, inorder, In_start, pos-1, index+1);  // index+1 ==> this index is of next element in preorder of left part 
-
-            // right part of root node
-            root->right = tree(preorder, inorder, pos+1, In_end, index+(pos-In_start)+1);  // index+(pos-In_start)+1 ===> this index is of next element in preorder of right part 
-
-            return root;
-}
-
-
-
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         
-        int n = inorder.size();
+        int n = preorder.size();
 
-        // here first 0 in below tree function  is = starting index of inorder
-        // and n-1 is = ending index of inorder
+        int idx = 0; // refers to index in preorder
 
-    return tree( preorder,inorder,  0/*starting index*/, n-1 /* ending index*/, 0 /* starting index of preoder*/);
-
-      
+        return solve(preorder, inorder, 0, n-1, idx);
     }
 };
