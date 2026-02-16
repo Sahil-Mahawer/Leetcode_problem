@@ -12,20 +12,19 @@
 class Solution {
 public:
 
-void total(TreeNode *root, int &count){
+void size(TreeNode* root, int &count){
 
-    if(root == NULL){
+    if(root==NULL){
         return;
     }
-
     count++;
-    total(root->left, count);
-    total(root->right, count);
+    size(root->left, count);
+    size(root->right, count);
 }
     int countNodes(TreeNode* root) {
         
-        int count = 0;
-        total(root, count);
+        int count = 0; 
+        size(root, count);
 
         return count;
     }
