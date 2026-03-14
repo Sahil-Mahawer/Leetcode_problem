@@ -8,6 +8,7 @@
 | [0015-3sum](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0217-contains-duplicate/) | Easy |
+| [0238-product-of-array-except-self](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -54,4 +55,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0238-product-of-array-except-self/) | Medium |
 <!---LeetCode Topics End-->
