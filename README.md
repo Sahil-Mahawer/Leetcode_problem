@@ -34,11 +34,13 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0049-group-anagrams/) | Medium |
+| [0125-valid-palindrome](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0242-valid-anagram/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0015-3sum/) | Medium |
+| [0125-valid-palindrome](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0125-valid-palindrome/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
