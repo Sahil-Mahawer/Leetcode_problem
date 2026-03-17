@@ -3,25 +3,27 @@ public:
     int maxArea(vector<int>& height) {
         
         int n = height.size();
-        int ans=0, area , mini_height, distance;
-        
-        int start = 0, end = n-1;
+        int i = 0, j = n-1;
 
-        while(start<end){
+        int maxArea = 0;
 
-            mini_height = min(height[start], height[end]);
-            distance = end - start;
-            area = mini_height*distance;
-            ans = max(area,ans);
+        while(i < j){
 
-            if(height[start]<height[end]){
-                start++;
+            int width = j-i;
+            int h = min(height[i], height[j]);
+
+            int area = width*h;
+
+            maxArea = max(maxArea, area);
+
+            if(height[i] > height[j]){
+                j--;
             }
-            else
-            end--;
-
+            else{
+                i++;
+            }
         }
 
-        return ans;
+        return maxArea;
     }
 };
