@@ -8,6 +8,7 @@
 | [0011-container-with-most-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0015-3sum/) | Medium |
 | [0036-valid-sudoku](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0036-valid-sudoku/) | Medium |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
@@ -43,6 +44,7 @@
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0015-3sum/) | Medium |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0125-valid-palindrome](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0125-valid-palindrome/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 ## Divide and Conquer
@@ -85,4 +87,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0011-container-with-most-water/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 <!---LeetCode Topics End-->
