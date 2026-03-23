@@ -2,26 +2,26 @@ class Solution {
 public:
     int maxProfit(vector<int>& prices) {
         
-      int n = prices.size();
-        long long  mini = INT_MAX, maxi=INT_MIN, ans = 0;
-        int index=-1;
-      for(int i=0;i<n;i++){
-         
-         if(mini>prices[i]){
-         mini = prices[i];
-         index= i;
-         }
-        }
+       int n = prices.size();
+       int profit = 0;
+       int max_profit = 0; 
+       vector<int> profitInFuture(n);
 
-         for(int j=index+1;j<n;j++){
-            
-            maxi = max(maxi, static_cast<long long>(prices[j]));
-         }
-         if(maxi>mini){
-         ans = maxi-mini;
-         }
+       profitInFuture[n-1] = prices[n-1];
 
-         return static_cast<int>(ans);
-      }
-    
+       for(int i = n-2; i>=0; i--){
+
+        profitInFuture[i] = max(profitInFuture[i+1], prices[i]);
+       }
+
+       for(int i=0; i<n; i++){
+
+        profit = profitInFuture[i] -  prices[i] ;
+
+        max_profit = max(max_profit, profit); 
+       }
+
+
+        return max_profit;
+    }
 };
