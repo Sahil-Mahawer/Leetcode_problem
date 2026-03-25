@@ -20,6 +20,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0001-two-sum/) | Easy |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0036-valid-sudoku](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -37,6 +38,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0049-group-anagrams](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0049-group-anagrams/) | Medium |
 | [0125-valid-palindrome](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0242-valid-anagram/) | Easy |
@@ -101,4 +103,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 <!---LeetCode Topics End-->
