@@ -1,49 +1,26 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-       
-    //    --->>>> Brute Force Approach ----->>>>
-
-    //     int maxlength= 0;
-
+        
         int n = s.size();
 
-    //     for(int i=0;i<n;i++){
+        unordered_set<char> st;
 
-    //         unordered_set<char> unique;
+        int i = 0, j = 0, max_length = 0;
 
-    //         for(int j=i;j<n;j++){
+        while(j < n){
 
-    //             if(unique.find(s[j])!=unique.end()){
-    //                 break;
-    //             }
+            while(st.find(s[j]) != st.end()){
 
-    //             unique.insert(s[j]);
-    //             maxlength = max(maxlength, j-i+1);
-    //         }
-    //     }
-    //     return maxlength;
+                st.erase(s[i]);
+                i++;
+            }
 
-
-    // ----->>>>> Optimal Approach ------>>>>
-
-    int start = 0, end = 0;
-    int maxlength=0;
-
-    unordered_set<char> unique;
-
-    while(end<n){
-
-        while(unique.find(s[end])!=unique.end()){
-
-            unique.erase(s[start]);
-            start++;
+            st.insert(s[j]);
+            max_length = max(max_length, j-i+1);
+            j++;
         }
-        unique.insert(s[end]);
-        maxlength = max(maxlength, end-start+1);
-        end++;
-    }
 
-    return maxlength;
-     }
+        return max_length;
+    }
 };
