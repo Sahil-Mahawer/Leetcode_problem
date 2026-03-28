@@ -17,10 +17,7 @@ public:
                 l++;
             } 
 
-            if((r-l+1) - max_freq <= k){
-                max_len = max(max_len, (r-l+1));
-            }
-
+            max_len = max(max_len, (r-l+1));
             r++;
         }
             return max_len;
