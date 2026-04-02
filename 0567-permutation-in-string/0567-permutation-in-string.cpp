@@ -2,59 +2,36 @@ class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
         
-        // sort(s1.begin(), s1.end());
+        unordered_map<char,int> s1_map;
+        unordered_map<char,int> s2_map;
 
-        int m = s2.size();
-        int n = s1.size();
+        for(int i=0; i<s1.size(); i++){
 
-        // for(int i=0;i<=m-n;i++)
-        // {
-        //     string substring = s2.substr(i,n);   // n is the length .. second argument in the s.substr() is the length means how many character we have to take from the starting index
-
-        //     sort(substring.begin(), substring.end());
-
-        //     if(s1 == substring){
-        //         return true;
-        //     }
-        // }
-
-        // return false;
-
-
-        vector<int> s1_vec(26,0);
-
-        for(int i=0;i<n;i++)
-        {
-            char ch = s1[i];
-            s1_vec[ch - 'a']++;
+            s1_map[s1[i]]++;
         }
 
+        int i=0, j=0; 
 
-        int i = 0, j = 0;
-        vector<int> window_vec(26,0);
+        while(j < s2.size()){
 
-        while(j < m)
-        {
-            char right = s2[j];
-            window_vec[right - 'a']++;
+            s2_map[s2[j]]++;
 
+            if(j-i+1 > s1.size()){
 
-            while( j-i+1 > s1.size()){
+                s2_map[s2[i]]--;
 
-                window_vec[s2[i] - 'a' ]--;
-
+                if(s2_map[s2[i]] == 0){
+                    s2_map.erase(s2[i]);
+                }
                 i++;
-
             }
 
-            if(window_vec == s1_vec){
+            if(s1_map == s2_map){
                 return true;
             }
-
             j++;
         }
 
         return false;
-
     }
 };
