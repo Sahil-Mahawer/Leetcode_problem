@@ -2,67 +2,56 @@ class Solution {
 public:
     string minWindow(string s, string t) {
         
-        if(s==t){
-            return t;
+        int n = s.size();
+
+        if(t.size() > s.size()){
+            return ""; // agrr t ka size bdaa hai s se .. toh hmee string kbhi milegi hee nhi 
         }
 
-        if(s.size()<t.size()){
-            return "";
+        unordered_map<char,int> mp;
+
+        for(char &ch : t){
+            mp[ch]++;
         }
 
+        int requiredCount = t.size();
+        int i=0, j=0;
 
-        int mini_length = INT_MAX;
+        int min_window_size = INT_MAX;
+        int start_i = 0;
 
-        int start = 0 , end =0 , n = s.size();
+        while(j < s.size()){
 
-        unordered_map<char, int> t_map;
+            char ch = s[j];   // taking characters of  string s 
 
-        for(int i=0;i<t.size();i++)
-        {
-            t_map[t[i]]++;
-        }
+            if(mp[ch] > 0){   // it is the character we require... it is in t string... 
 
-        int required_character_count  =  t_map.size();
-
-        int current_window_character = 0;
-        unordered_map<char,int> window_map;
-        int start_index = 0; 
-
-        while(end < s.size()){
-            char c = s[end]; 
-            if(t_map.find(c) != t_map.end()) // means agr current character "t_freq" vaale map mai present hai
-            {
-                window_map[c]++;
-            
-
-            if(window_map[c] == t_map[c] ){
-                current_window_character++;
-            }
+               requiredCount --;   // ik character mill gya toh abb ye require nhi hai hmee     
             }
 
-            while(current_window_character == required_character_count ){
+            mp[ch]--;
 
-                if(end-start+1 < mini_length){
-                    mini_length = end-start+1;
-                    start_index = start;
+            while(requiredCount == 0){   // shrinking phase start
+
+                int current_window_size = j-i+1;
+
+                if(min_window_size > current_window_size){
+                    min_window_size = current_window_size;
+                    start_i = i;
                 }
 
+                mp[s[i]]++;  //increase the frequenct at i charcter .. as now it is 
 
-                char left = s[start];
-                if(t_map.find(left)!=t_map.end()){
-
-                    window_map[left]--;
-
-                    if(window_map[left] < t_map[left]){
-                        current_window_character--;
-                    }
+                if(mp[s[i]] > 0){
+                    requiredCount++;  // we want this character
                 }
-                start++;
+
+                i++;
             }
 
-            end++;
+            j++;
         }
 
-        return mini_length == INT_MAX ? "" : s.substr(start_index, mini_length);
+        return min_window_size ==  INT_MAX ? "" : s.substr(start_i, min_window_size);
     }
 };
