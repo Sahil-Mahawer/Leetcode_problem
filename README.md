@@ -44,6 +44,7 @@
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0020-valid-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0020-valid-parentheses/) | Easy |
+| [0022-generate-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0022-generate-parentheses/) | Medium |
 | [0049-group-anagrams](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0049-group-anagrams/) | Medium |
 | [0076-minimum-window-substring](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0076-minimum-window-substring/) | Hard |
 | [0125-valid-palindrome](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0125-valid-palindrome/) | Easy |
@@ -102,6 +103,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 ## Stack
@@ -125,4 +127,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0022-generate-parentheses/) | Medium |
 <!---LeetCode Topics End-->
