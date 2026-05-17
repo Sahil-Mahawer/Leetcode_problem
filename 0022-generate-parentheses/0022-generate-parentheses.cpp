@@ -1,36 +1,51 @@
 class Solution {
 public:
+vector<string> result;
 
-void parenth(int n, int left , int right, vector<string> &ans, string &temp)
-{
-    // base condition 
-    if(left ==n && right == n){
-        ans.push_back(temp);
-        return;
-    }
-    // include left
-    if(left<n){
-        temp.push_back('(');
-        parenth(n , left+1, right,ans, temp);
-        temp.pop_back();
-    
+    bool isValid(string &curr){
+
+        int count = 0; 
+
+        for(int i=0; i<curr.size(); i++){
+
+            if(curr[i] == '('){
+                count++;
+            }
+            else{
+                count--;
+                if(count<0){
+                    return false;
+                }
+            }
+        }
+
+        return count == 0;
+
     }
 
-    // include right
-    if(right < left){  // right parenthesis left se bda hua toh add nhi krenge .. kyuki tbb shii format mai parethesis genreate nhi honge
-        temp.push_back(')');
-        parenth(n , left, right+1,ans, temp);
-        temp.pop_back();
-    }
+    void solve(string &curr, int n){
 
-}
+        if(curr.length() == 2*n){
+
+            if(isValid(curr)){
+                result.push_back(curr);
+            }
+
+            return;
+        }
+        curr.push_back('(');
+        solve(curr,n);
+        curr.pop_back();
+
+        curr.push_back(')');
+        solve(curr,n);
+        curr.pop_back();
+    }
 
     vector<string> generateParenthesis(int n) {
         
-        vector<string> ans;
-        string temp;
-        parenth(n, 0 ,0, ans , temp);
-
-        return ans;
+        string curr = "";
+        solve(curr,n);
+        return result;
     }
 };
