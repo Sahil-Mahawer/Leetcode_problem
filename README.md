@@ -17,6 +17,7 @@
 | [0217-contains-duplicate](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0217-contains-duplicate/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0739-daily-temperatures](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0739-daily-temperatures/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -112,10 +113,12 @@
 | [0020-valid-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0739-daily-temperatures](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0739-daily-temperatures/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
+| [0739-daily-temperatures](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0739-daily-temperatures/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
