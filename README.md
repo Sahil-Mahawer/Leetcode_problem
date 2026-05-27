@@ -22,6 +22,7 @@
 | [0704-binary-search](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0704-binary-search/) | Easy |
 | [0739-daily-temperatures](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0853-car-fleet/) | Medium |
+| [0875-koko-eating-bananas](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0875-koko-eating-bananas/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -105,6 +106,7 @@
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0704-binary-search](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0704-binary-search/) | Easy |
+| [0875-koko-eating-bananas](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0875-koko-eating-bananas/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
