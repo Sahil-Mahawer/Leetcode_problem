@@ -130,6 +130,7 @@
 | [0022-generate-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -157,6 +158,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -165,4 +167,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0981-time-based-key-value-store](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0981-time-based-key-value-store/) | Medium |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 <!---LeetCode Topics End-->
