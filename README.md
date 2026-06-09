@@ -171,4 +171,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0206-reverse-linked-list/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0206-reverse-linked-list/) | Easy |
 <!---LeetCode Topics End-->
