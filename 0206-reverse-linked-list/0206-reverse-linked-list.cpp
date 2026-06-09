@@ -12,24 +12,15 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         
-        vector<int> ans;
+        ListNode * curr = head, *prev = NULL, *fut = NULL;
 
-        ListNode *temp = head;
-
-        while(temp!=NULL){
-            ans.push_back(temp->val);
-            temp = temp->next;
+        while(curr!=NULL){
+            fut = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = fut;
         }
 
-        int i = ans.size()-1;
-        temp = head;
-
-        while(temp!=NULL){
-            temp->val = ans[i];
-            i--;
-            temp = temp->next;
-        }
-
-        return head;
+        return prev;
     }
 };
