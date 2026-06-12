@@ -12,51 +12,43 @@ class Solution {
 public:
     void reorderList(ListNode* head) {
         
-
-        // find the middle 
         ListNode *slow = head, *fast = head;
 
-        while(fast!=NULL && fast->next!=NULL){
+        ListNode *newHead = NULL;
+
+        while(fast!=NULL && fast->next!= NULL){
 
             slow = slow->next;
             fast = fast->next->next;
         }
 
-        ListNode *newHead = slow->next;
-        slow->next = NULL; // divide the linked list into two parts
+        newHead = slow->next;
+        slow->next = NULL;
 
-        // first part start from "head"
-        // and second part start from "newHead"
-
-        // and now reverse the second list , which start from "newHead"
-
-        ListNode *prev = NULL, *curr = newHead, *next = NULL;
-
-        while(curr){
-
-            next = curr->next;
+        // reverse second half od LL
+        ListNode *curr = newHead, *prev = NULL, *fut = NULL;
+        while(curr != NULL){
+            fut = curr->next;
             curr->next = prev;
             prev = curr;
-            curr = next;
+            curr = fut;
         } 
-
-        // Now, "prev" is pointing to beginning of reversed list
-        
-
-        // and merge the second list to first list one by one 
 
         ListNode *t1 = head;
         ListNode *t2 = prev;
 
-        while(t2!=NULL){
-            
+
+        while(t2 != NULL){
+
             ListNode *m1 = t1->next;
             ListNode *m2 = t2->next;
-            
+
             t1->next = t2;
             t2->next = m1;
+
             t1 = m1;
-            t2 = m2; 
+            t2 = m2;
+
         }
 
     }
