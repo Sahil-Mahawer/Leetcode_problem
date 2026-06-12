@@ -72,6 +72,7 @@
 | [0015-3sum](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0125-valid-palindrome](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0125-valid-palindrome/) | Easy |
+| [0143-reorder-list](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0143-reorder-list/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0567-permutation-in-string/) | Medium |
 ## Divide and Conquer
@@ -137,6 +138,7 @@
 | [0020-valid-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0143-reorder-list](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0143-reorder-list/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0739-daily-temperatures](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0853-car-fleet/) | Medium |
@@ -175,10 +177,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0143-reorder-list](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0206-reverse-linked-list/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0143-reorder-list](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0206-reverse-linked-list/) | Easy |
 <!---LeetCode Topics End-->
