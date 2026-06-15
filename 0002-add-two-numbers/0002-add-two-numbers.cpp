@@ -10,40 +10,18 @@
  */
 class Solution {
 public:
-
-// ListNode* reverse(ListNode*curr, ListNode* prev){
-
-//     ListNode* next = NULL;
-
-//     while(curr){
-//         next = curr->next;
-//         curr->next = prev;
-//         prev = curr;
-//         curr = next;
-//     }
-
-//     return prev;
-
-// }
-
-
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         
-        // ListNode* curr1 = reverse(l1, NULL);
-        // ListNode* curr2 = reverse(l2, NULL);
-
-         ListNode* curr1 = l1;
-         ListNode* curr2 = l2;
+        ListNode *curr1 = l1;
+        ListNode *curr2 = l2;
 
         ListNode *head = new ListNode(0);
         ListNode *tail = head;
 
-        int carry = 0;
-        int sum =0;
+        int sum = 0, carry = 0;
 
-        while(curr1!=NULL && curr2!=NULL){
-
-            sum = curr1->val + curr2->val+carry;
+        while(curr1 != NULL && curr2 != NULL){
+            sum = curr1->val + curr2->val + carry;
             tail->next = new ListNode(sum%10);
             carry = sum/10;
             tail = tail->next;
@@ -56,15 +34,15 @@ public:
             tail->next = new ListNode(sum%10);
             carry = sum/10;
             tail = tail->next;
-            curr1 = curr1->next; 
+            curr1 = curr1->next;
         }
 
         while(curr2){
             sum = curr2->val + carry;
             tail->next = new ListNode(sum%10);
-            tail = tail->next;
             carry = sum/10;
-            curr2 = curr2->next; 
+            tail = tail->next;
+            curr2 = curr2->next;
         }
 
         while(carry){
@@ -76,7 +54,5 @@ public:
         head = head->next;
 
         return head;
-
-       
     }
 };
