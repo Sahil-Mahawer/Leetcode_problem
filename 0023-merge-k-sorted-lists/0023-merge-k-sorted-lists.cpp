@@ -8,96 +8,53 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-//  class Solution {
-// public:
-//     ListNode* merge(ListNode* head1, ListNode* head2) {
-
-//         ListNode* head = new ListNode(0);
-//         ListNode* tail = head;
-
-//         while (head1 && head2) {
-
-//             if (head1->val <= head2->val) {
-//                 tail->next = head1;
-//                 head1 = head1->next;
-//                 tail = tail->next;
-//                 tail->next = NULL;
-//             }
-
-//             else {
-
-//                 tail->next = head2;
-//                 head2 = head2->next;
-//                 tail = tail->next;
-//                 tail->next = NULL;
-//             }
-//         }
-
-//         if (head1) {
-//             tail->next = head1;
-//         } else {
-//             tail->next = head2;
-//         }
-
-//         return head->next;
-//     }
-
-//     ListNode* mergeKLists(vector<ListNode*>& lists) {
-
-//         if (lists.empty()) {
-//             return NULL;
-//         }
-
-//         ListNode* head = lists[0];
-
-//         for (int i = 1; i < lists.size(); i++) {
-
-//             head = merge(head, lists[i]);
-//         }
-
-//         return head;
-//     }
-// };
-
-class Compare {
-public:
-    bool operator()(ListNode* a, ListNode* b) {
-
-        return a->val > b->val; // minheap on the basis of values
-    }
-};
-
 class Solution {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
 
-        priority_queue<ListNode*, vector<ListNode*>, Compare> pq;
+ListNode* merge(ListNode* head1, ListNode* head2){
 
-        for (int i = 0; i < lists.size(); i++) {
-            ListNode* node = lists[i];
-            if (node != nullptr) {
-                pq.push(node);
-            }
-        }
+    ListNode *head = new ListNode(0);
+    ListNode *tail = head;
 
-        ListNode* root = new ListNode(0);
-        ListNode* tail = root;
+    while(head1 != NULL && head2 != NULL){
 
-        ListNode* temp;
-
-        while (!pq.empty()) {
-
-            temp = pq.top();
-            pq.pop();
-            tail->next = temp;
+        if(head1->val <= head2->val){
+            tail->next = head1;
             tail = tail->next;
+            head1 = head1->next;
+            tail->next = NULL;
+        }
+        else{
+            tail->next = head2;
+            tail = tail->next;
+            head2 = head2->next;
+            tail->next = NULL; 
+        }
+    }
 
-            if (temp->next) {
-                pq.push(temp->next);
-            }
+    if(head1){
+        tail->next = head1;
+    }
+    else{
+        tail->next = head2;
+    }
+
+    return head->next;
+}
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        
+
+        if(lists.empty()){
+            return NULL;
         }
 
-        return root->next;
+        ListNode *head = lists[0];
+
+        for(int i=1; i<lists.size(); i++){
+
+            head = merge(head, lists[i]);
+        }
+
+        return head;
     }
 };
