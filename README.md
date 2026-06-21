@@ -28,6 +28,7 @@
 | [0853-car-fleet](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0853-car-fleet/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1833-maximum-ice-cream-bars/) | Medium |
+| [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -57,6 +58,7 @@
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0853-car-fleet](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0853-car-fleet/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1833-maximum-ice-cream-bars/) | Medium |
+| [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -174,6 +176,7 @@
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0002-add-two-numbers/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
