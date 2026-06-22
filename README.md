@@ -48,6 +48,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0567-permutation-in-string/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1189-maximum-number-of-balloons](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1189-maximum-number-of-balloons/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -73,6 +74,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0567-permutation-in-string/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1189-maximum-number-of-balloons](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1189-maximum-number-of-balloons/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -105,6 +107,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [1189-maximum-number-of-balloons](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1189-maximum-number-of-balloons/) | Easy |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
