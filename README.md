@@ -31,6 +31,7 @@
 | [1833-maximum-ice-cream-bars](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [3731-find-missing-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3731-find-missing-elements/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -50,6 +51,7 @@
 | [0567-permutation-in-string](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0567-permutation-in-string/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1189-maximum-number-of-balloons/) | Easy |
+| [3731-find-missing-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -62,6 +64,7 @@
 | [1833-maximum-ice-cream-bars](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [3731-find-missing-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3731-find-missing-elements/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
