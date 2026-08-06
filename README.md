@@ -185,6 +185,7 @@
 | [0002-add-two-numbers](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0002-add-two-numbers/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -199,6 +200,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1291-sequential-digits](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1291-sequential-digits/) | Medium |
+| [3345-smallest-divisible-digit-product-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3345-smallest-divisible-digit-product-i/) | Easy |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
