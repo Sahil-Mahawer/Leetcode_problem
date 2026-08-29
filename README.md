@@ -51,6 +51,7 @@
 | [0567-permutation-in-string](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0567-permutation-in-string/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1189-maximum-number-of-balloons/) | Easy |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [3731-find-missing-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
@@ -242,11 +243,13 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -257,4 +260,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
+## DP on Trees
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 <!---LeetCode Topics End-->
