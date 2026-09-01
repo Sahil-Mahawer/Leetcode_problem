@@ -259,6 +259,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
@@ -266,6 +267,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
+| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
