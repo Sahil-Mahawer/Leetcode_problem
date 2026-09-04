@@ -2,56 +2,51 @@ class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         
+        vector<int> indegree(numCourses, 0);
 
-        vector<vector<int>> adj(numCourses);
-        vector<int> indegree(numCourses,0);
+        unordered_map<int, vector<int>> adj;
 
         for(int i=0; i<prerequisites.size(); i++){
 
-            int a = prerequisites[i][0];
-            int b = prerequisites[i][1];
+            int u = prerequisites[i][1];
+            int v = prerequisites[i][0]; 
 
-            // b ----> a
+            adj[u].push_back(v);
 
-            adj[b].push_back(a);
+            indegree[v]++;
 
-            indegree[a]++;
         }
 
-
-        queue<int> q;
+        queue<int> que;
 
         int count = 0;
 
         for(int i=0; i<numCourses; i++){
 
             if(indegree[i] == 0){
-                q.push(i);
+                que.push(i);
             }
         }
 
+        while(!que.empty()){
 
-        while(!q.empty()){
-
-            int node = q.front(); 
-            q.pop();
+            int node = que.front();
+            que.pop();
 
             count++;
 
-            for(int i=0; i<adj[node].size(); i++){
+            for(int j=0; j<adj[node].size(); j++){
 
-                indegree[adj[node][i]]--;
+                indegree[adj[node][j]] --;
 
-                if(indegree[adj[node][i]] == 0){
-
-                    q.push(adj[node][i]);
+                if(indegree[adj[node][j]] == 0){
+                    que.push(adj[node][j]);
                 }
             }
         }
 
-        if(count == numCourses){
-            return true;
-        }
+        if(count == numCourses)
+        return true;
         
         return false;
     }
