@@ -246,6 +246,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0684-redundant-connection](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0684-redundant-connection/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
@@ -255,6 +256,7 @@
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0684-redundant-connection](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0684-redundant-connection/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
@@ -263,6 +265,7 @@
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0684-redundant-connection](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0684-redundant-connection/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0997-find-the-town-judge](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0997-find-the-town-judge/) | Easy |
@@ -274,6 +277,7 @@
 ## Directed Acyclic Graph
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 ## Tree
@@ -284,4 +288,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 <!---LeetCode Topics End-->
