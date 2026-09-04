@@ -2,66 +2,51 @@ class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         
+        vector<int> ans;
 
-        vector<int> result;
-
-        vector<vector<int>> adj(numCourses);
+        queue<int> que;
 
         vector<int> indegree(numCourses, 0);
 
+        unordered_map<int, vector<int>> adj;
 
         for(int i=0; i<prerequisites.size(); i++){
 
-            int a = prerequisites[i][0];
-            int b = prerequisites[i][1];
+            int u = prerequisites[i][1];
+            int v = prerequisites[i][0];
 
-            // b ---> a 
-            adj[b].push_back(a);
+            adj[u].push_back(v);
 
-            indegree[a]++;
+            indegree[v]++;
         }
-
-        queue<int> q; 
 
         for(int i=0; i<numCourses; i++){
 
             if(indegree[i] == 0){
-
-                result.push_back(i);
-
-                q.push(i);
+                que.push(i);
             }
         }
 
-        int count = 0;
+        while(!que.empty()){
 
-        while(!q.empty()){
+            int node = que.front();
+            que.pop();
+            ans.push_back(node);
 
-            int node = q.front();
+            for(int j=0; j<adj[node].size(); j++){
 
-            q.pop();
+                indegree[adj[node][j]]--;
 
-            count++;
-
-            for(int i=0; i<adj[node].size(); i++){
-
-                int neighbour = adj[node][i];
-
-                indegree[neighbour]--;
-
-                if(indegree[neighbour] == 0){
-
-                    result.push_back(neighbour);
-
-                    q.push(neighbour);
+                if(indegree[adj[node][j]] == 0){
+                    que.push(adj[node][j]);
                 }
             }
         }
 
-        if(count == numCourses){
-            return result;
+        if(ans.size() != numCourses){
+            return {};
         }
 
-        return {};
+        return ans;
     }
 };
