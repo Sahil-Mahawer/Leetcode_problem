@@ -2,49 +2,44 @@ class Solution {
 public:
     bool isBipartite(vector<vector<int>>& graph) {
         
-        int v = graph.size();
+        int V = graph.size();
 
-        vector<int> color(v,-1);
+        vector<int> color(V,-1);
 
-        queue<int> q;
+        queue<int> que;
 
-        for(int i=0; i<v; i++){
+
+        for(int i=0; i<V; i++){
 
             if(color[i] == -1){
-            
-                q.push(i);  // push one node into the queue
-                color[i] = 0; // assign color to them 
+                color[i] = 0;
+                que.push(i);
+            }
 
-        while(!q.empty()){
+            while(!que.empty()){
 
-            int node = q.front();
-            q.pop();
+                int node = que.front();
+                que.pop();
 
-            for(int j=0; j<graph[node].size(); j++){
+                for(int j=0; j<graph[node].size();j++){
+                     
+                     // if node is not colored 
+                     if(color[graph[node][j]] == -1){
+                        color[graph[node][j]] = (color[node]+1) % 2;
+                        que.push(graph[node][j]);
+                     }
 
-                // if node is not colored 
-                if(color[graph[node][j]] == -1){
+                     else{
 
-                    color[graph[node][j]] = (color[node] + 1) % 2; // by this we get the opposite color 
-                    q.push(graph[node][j]);
-                }
-
-                // if node is already colored
-                else{
-
-                    if(color[node] == color[graph[node][j]]){
-                        return 0;
-                    }
+                        if(color[node] == color[graph[node][j]]){
+                            return 0; 
+                        }
+                     }
                 }
             }
         }
 
-        }
-        }
-        
-
-        return 1; 
-
+        return 1;
 
     }
 };
