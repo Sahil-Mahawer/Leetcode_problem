@@ -32,6 +32,7 @@
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [0997-find-the-town-judge](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0997-find-the-town-judge/) | Easy |
 | [1046-last-stone-weight](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1046-last-stone-weight/) | Easy |
+| [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
@@ -135,6 +136,7 @@
 | [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
 | [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
+| [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -284,6 +286,7 @@
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
+| [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Graph Theory
