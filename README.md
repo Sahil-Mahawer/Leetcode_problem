@@ -19,6 +19,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
 | [0217-contains-duplicate](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0217-contains-duplicate/) | Easy |
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0287-find-the-duplicate-number/) | Medium |
@@ -130,11 +131,13 @@
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0036-valid-sudoku/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
 | [0684-redundant-connection](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0684-redundant-connection/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
@@ -250,6 +253,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0210-course-schedule-ii/) | Medium |
 | [0684-redundant-connection](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0684-redundant-connection/) | Medium |
@@ -265,6 +269,7 @@
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0210-course-schedule-ii/) | Medium |
 | [0684-redundant-connection](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0684-redundant-connection/) | Medium |
