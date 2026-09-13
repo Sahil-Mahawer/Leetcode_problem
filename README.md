@@ -27,6 +27,7 @@
 | [0739-daily-temperatures](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0853-car-fleet/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0875-koko-eating-bananas/) | Medium |
+| [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [0997-find-the-town-judge](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0997-find-the-town-judge/) | Easy |
 | [1046-last-stone-weight](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1046-last-stone-weight/) | Easy |
 | [1833-maximum-ice-cream-bars](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1833-maximum-ice-cream-bars/) | Medium |
@@ -129,6 +130,7 @@
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0036-valid-sudoku/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -270,6 +272,7 @@
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
+| [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
