@@ -24,6 +24,7 @@
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
 | [0704-binary-search](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0704-binary-search/) | Easy |
 | [0739-daily-temperatures](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0853-car-fleet/) | Medium |
@@ -132,6 +133,7 @@
 | [0036-valid-sudoku](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0036-valid-sudoku/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
+| [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -166,6 +168,7 @@
 | [0022-generate-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -272,6 +275,7 @@
 | [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0210-course-schedule-ii/) | Medium |
+| [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
 | [0684-redundant-connection](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0684-redundant-connection/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
