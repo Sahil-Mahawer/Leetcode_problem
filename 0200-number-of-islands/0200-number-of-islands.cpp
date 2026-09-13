@@ -1,43 +1,58 @@
 class Solution {
 public:
-int m, n;
 
-void dfs(vector<vector<char>>& grid, int i, int j)
-{
+    int r;
+    int c;
 
+    int row[4] = {-1,1,0,0};
+    int col[4] = {0,0,-1,1};
 
-    if(i < 0 || i>=m || j < 0 || j>=n || grid[i][j] != '1'){
-        return;
+    bool isValid(int i, int j){
+
+        if(i>=0 && i<r && j>=0 && j<c){
+            return true;
+        }
+
+        return false;
     }
 
-    grid[i][j] = '$'; // mark as visited
-
-    dfs(grid, i+1, j);
-    dfs(grid, i-1, j);
-    dfs(grid, i, j+1);
-    dfs(grid, i, j-1);
-
-
-}
     int numIslands(vector<vector<char>>& grid) {
         
-        m = grid.size();
-        n = grid[0].size();
+        r = grid.size();
+        c = grid[0].size();
 
-        int island = 0;
+        int count = 0;
 
-        for(int i = 0; i<m; i++){
+        queue<pair<int,int>> que;
 
-            for(int j=0; j<n; j++){
+        for(int i=0; i<r; i++){
+            for(int j=0; j<c; j++){
 
                 if(grid[i][j] == '1'){
 
-                    dfs(grid, i, j);
-                    island++;
+                    count++;
+                    que.push({i,j});
+                    grid[i][j] = '0';
+
+                    while(!que.empty()){
+
+                        int new_i = que.front().first;
+                        int new_j = que.front().second;
+                        que.pop();
+
+                        for(int k=0; k<4; k++){
+
+                            if(isValid(new_i + row[k], new_j + col[k]) && grid[new_i+row[k]][new_j+col[k]] == '1'){
+                                grid[new_i+row[k]][new_j+col[k]] = '0';
+                                que.push({new_i+row[k], new_j+col[k]});
+                            }
+                        }
+
+                    }
                 }
             }
         }
 
-        return island;
+        return count;
     }
 };
