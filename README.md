@@ -36,6 +36,7 @@
 | [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
+| [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [3731-find-missing-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3731-find-missing-elements/) | Easy |
 ## Hash Table
@@ -174,6 +175,7 @@
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
+| [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -307,6 +309,7 @@
 | [0997-find-the-town-judge](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0997-find-the-town-judge/) | Easy |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
+| [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [2924-find-champion-ii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2924-find-champion-ii/) | Medium |
@@ -317,6 +320,7 @@
 | [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
+| [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -331,6 +335,7 @@
 | [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0210-course-schedule-ii/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 ## Kosaraju's Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
