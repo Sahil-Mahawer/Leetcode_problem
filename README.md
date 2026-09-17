@@ -274,6 +274,7 @@
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
+| [1462-course-schedule-iv](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1462-course-schedule-iv/) | Medium |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
@@ -293,6 +294,7 @@
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
+| [1462-course-schedule-iv](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1462-course-schedule-iv/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
@@ -308,6 +310,7 @@
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
 | [0997-find-the-town-judge](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0997-find-the-town-judge/) | Easy |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
+| [1462-course-schedule-iv](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1462-course-schedule-iv/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
@@ -335,6 +338,7 @@
 | [0207-course-schedule](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0210-course-schedule-ii/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [1462-course-schedule-iv](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1462-course-schedule-iv/) | Medium |
 | [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 ## Kosaraju's Algorithm
 | Problem Name | Difficulty |
