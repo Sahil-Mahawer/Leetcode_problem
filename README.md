@@ -180,6 +180,7 @@
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0847-shortest-path-visiting-all-nodes/) | Hard |
 | [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Stack
@@ -253,6 +254,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0287-find-the-duplicate-number](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0847-shortest-path-visiting-all-nodes/) | Hard |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -296,6 +298,7 @@
 | [0785-is-graph-bipartite](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0847-shortest-path-visiting-all-nodes/) | Hard |
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
@@ -314,6 +317,7 @@
 | [0785-is-graph-bipartite](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0847-shortest-path-visiting-all-nodes/) | Hard |
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
 | [0997-find-the-town-judge](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0997-find-the-town-judge/) | Easy |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
@@ -370,4 +374,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0752-open-the-lock](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0752-open-the-lock/) | Medium |
+## Bitmask
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0847-shortest-path-visiting-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0847-shortest-path-visiting-all-nodes/) | Hard |
 <!---LeetCode Topics End-->
