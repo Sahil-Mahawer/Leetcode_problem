@@ -33,6 +33,7 @@
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [0997-find-the-town-judge](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0997-find-the-town-judge/) | Easy |
 | [1046-last-stone-weight](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1046-last-stone-weight/) | Easy |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
 | [1833-maximum-ice-cream-bars](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1833-maximum-ice-cream-bars/) | Medium |
 | [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
@@ -139,6 +140,7 @@
 | [0200-number-of-islands](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0200-number-of-islands/) | Medium |
 | [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -293,6 +295,7 @@
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [1042-flower-planting-with-no-adjacent](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1042-flower-planting-with-no-adjacent/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [1462-course-schedule-iv](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1462-course-schedule-iv/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
