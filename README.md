@@ -40,6 +40,7 @@
 | [1840-maximum-building-height](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1840-maximum-building-height/) | Hard |
 | [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [3731-find-missing-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3731-find-missing-elements/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -63,6 +64,7 @@
 | [0997-find-the-town-judge](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0997-find-the-town-judge/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
+| [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [3731-find-missing-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3731-find-missing-elements/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
@@ -154,6 +156,7 @@
 | [0684-redundant-connection](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0684-redundant-connection/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
+| [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -283,6 +286,7 @@
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [1462-course-schedule-iv](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1462-course-schedule-iv/) | Medium |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
+| [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Breadth-First Search
@@ -306,6 +310,7 @@
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
 | [1462-course-schedule-iv](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1462-course-schedule-iv/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
+| [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Graph Theory
@@ -325,6 +330,7 @@
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
+| [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [2924-find-champion-ii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2924-find-champion-ii/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
@@ -339,6 +345,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1443-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1443-minimum-time-to-collect-all-apples-in-a-tree/) | Medium |
+| [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 ## DP on Trees
 | Problem Name | Difficulty |
 | ------- | ------- |
