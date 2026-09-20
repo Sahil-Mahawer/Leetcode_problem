@@ -41,6 +41,7 @@
 | [2050-parallel-courses-iii](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2050-parallel-courses-iii/) | Hard |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
 | [3731-find-missing-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3731-find-missing-elements/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -147,6 +148,7 @@
 | [0994-rotting-oranges](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -158,6 +160,7 @@
 | [0886-possible-bipartition](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0886-possible-bipartition/) | Medium |
 | [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -288,6 +291,7 @@
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -312,6 +316,7 @@
 | [1765-map-of-highest-peak](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/1765-map-of-highest-peak/) | Medium |
 | [2368-reachable-nodes-with-restrictions](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2368-reachable-nodes-with-restrictions/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
+| [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/2658-maximum-number-of-fish-in-a-grid/) | Medium |
 | [3310-remove-methods-from-project](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/3310-remove-methods-from-project/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
