@@ -17,7 +17,7 @@ public:
         //BFS from all nodes
         for(int i=0; i<n; i++){
 
-            int maskValue = (1 << i);
+            int maskValue = (1 << i);   // here bits get sets.. means if node = 0 the set bit 0 = 1
 
             que.push({i,maskValue});
             visited.insert({i, maskValue});
