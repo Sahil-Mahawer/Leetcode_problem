@@ -12,6 +12,7 @@
 | [0036-valid-sudoku](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0036-valid-sudoku/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0049-group-anagrams/) | Medium |
+| [0053-maximum-subarray](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0053-maximum-subarray/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -113,6 +114,7 @@
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0023-merge-k-sorted-lists](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0053-maximum-subarray](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0053-maximum-subarray/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -184,6 +186,7 @@
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0042-trapping-rain-water/) | Hard |
+| [0053-maximum-subarray](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0053-maximum-subarray/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0542-01-matrix](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0542-01-matrix/) | Medium |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sahil-Mahawer/Leetcode_problem/tree/main/0847-shortest-path-visiting-all-nodes/) | Hard |
