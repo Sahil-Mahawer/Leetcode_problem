@@ -1,15 +1,19 @@
 class Solution {
 public:
-    int maxSubArray(vector<int>& arr) {
-        int ans = INT_MIN, sum=0;
-        int n = arr.size();
-        for(int i=0;i<n;i++){
+    int maxSubArray(vector<int>& nums) {
+        
+        int currentSum = nums[0]; // represents maximum sum of a subarray ending at the current index
+        int maxSum = nums[0];  //maximum sum we have found so far
 
-            sum = sum+arr[i];
-            ans = max(ans, sum);
-            if(sum<0)
-            sum=0;
+        // Kdane Algorithm:-
+        //If the sum of the previous subarray is hurting the current element, discard it and start fresh.
+
+        for(int i=1; i<nums.size(); i++)
+        {
+            currentSum = max(nums[i], currentSum + nums[i]);
+            maxSum = max(maxSum, currentSum);
         }
-        return ans;
+
+        return maxSum;
     }
 };
